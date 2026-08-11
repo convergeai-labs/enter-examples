@@ -12,6 +12,8 @@ Example works built on [Enter](https://enter.converge.ai) — the AI app builder
 
 A "24-hours-alive" tech radar: AI streams an interpretation of what's happening on Hacker News / GitHub **right now**, every visitor shares the same "current moment", rank-momentum badges track the movement, an agent autonomously picks 3 stories and deep-dives them with real fetched content, and a weekly tech report ships with one-click Markdown copy for team sharing.
 
+**▶ Live preview**: [pulse — ai 实时观测站](https://d41c8754b3a14836980c67b0acfcddfa.live-preview.enterapp.pro/) (Enter preview link; loads the current shared snapshot, regenerates at most every 15 min)
+
 Zero input. First fold is the content. Built in 6 bounded batches over 2 days, each batch independently verified from outside Enter — including direct database reads and OS-clipboard read-back.
 
 | | |
