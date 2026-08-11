@@ -1,35 +1,45 @@
 # enter-examples
 
-Example works built on [Enter](https://enter.converge.ai) — the AI app builder — by an agent driving Enter with the [enter-skills](https://github.com/convergeai-labs/enter-skills) playbook. Every entry ships the story, the screenshots, the prompts, and full provenance.
+> 🌐 **English version** → [README.en.md](README.en.md)
+
+在 [Enter](https://enter.converge.ai)(AI 应用构建平台)上、由 agent 按 [enter-skills](https://github.com/convergeai-labs/enter-skills) playbook 驱动 Enter 创作的示例作品。每个条目都附带完整故事、截图、prompt 原文与 provenance 记录。
 
 ---
 
-## 🛰️ PULSE — AI 实时观测站 (AI real-time observatory)
+## 🛰️ PULSE — AI 实时观测站
 
 <p align="center">
-  <img src="entries/2026-08-pulse-ai-observatory/screenshots/06-agent-deep-dive.png" width="720" alt="PULSE — AI real-time observatory">
+  <img src="entries/2026-08-pulse-ai-observatory/screenshots/06-agent-deep-dive.png" width="720" alt="PULSE — AI 实时观测站">
 </p>
 
-A "24-hours-alive" tech radar: AI streams an interpretation of what's happening on Hacker News / GitHub **right now**, every visitor shares the same "current moment", rank-momentum badges track the movement, an agent autonomously picks 3 stories and deep-dives them with real fetched content, and a weekly tech report ships with one-click Markdown copy for team sharing.
+一个「24 小时活着」的技术雷达:AI 流式解读 Hacker News / GitHub **此刻**的讨论,所有访客共享同一个「当前时刻」;排名动量徽章追踪榜单变化;Agent 自主挑选 3 条新闻并用真实抓取的内容做深潜解读;每周自动生成技术周报,一键复制 Markdown 即可分享到团队周报渠道。
 
-**▶ Live preview**: [pulse — ai 实时观测站](https://d41c8754b3a14836980c67b0acfcddfa.live-preview.enterapp.pro/) (Enter preview link; loads the current shared snapshot, regenerates at most every 15 min)
+**▶ 在线预览**:[PULSE — AI 实时观测站](https://d41c8754b3a14836980c67b0acfcddfa.live-preview.enterapp.pro/)(Enter 预览链接;打开即当前共享快照,每 15 分钟最多重新生成一次)
 
-Zero input. First fold is the content. Built in 6 bounded batches over 2 days, each batch independently verified from outside Enter — including direct database reads and OS-clipboard read-back.
+零输入,首屏即内容。2 天 6 个有界批次构建完成,每个批次都在 Enter 之外独立验证——包括数据库直查与系统剪贴板读回。
 
 | | |
 |---|---|
-| <img src="entries/2026-08-pulse-ai-observatory/screenshots/03-multi-source.png" width="340" alt="multi-source radar"> | <img src="entries/2026-08-pulse-ai-observatory/screenshots/05-weekly-report.png" width="340" alt="weekly report"> |
-| three-source radar with momentum | weekly tech report + copy Markdown |
+| <img src="entries/2026-08-pulse-ai-observatory/screenshots/03-multi-source.png" width="340" alt="多源雷达"> | <img src="entries/2026-08-pulse-ai-observatory/screenshots/05-weekly-report.png" width="340" alt="每周技术周报"> |
+| 三源雷达 + 动量徽章 | 每周技术周报 + 复制 Markdown |
 
-📖 **Full story + how it was made with an agent**: [entries/2026-08-pulse-ai-observatory/](entries/2026-08-pulse-ai-observatory/)
-🛠 **The method**: [enter-project-ops](https://github.com/convergeai-labs/enter-skills/blob/main/skills/enter-project-ops/SKILL.md)
+### 它是怎么被 agent 造出来的
+
+<p align="center">
+  <img src="assets/agent-builds-living-site.png" width="720" alt="从 prompt 到活网站:agent 驱动 Enter 构建">
+</p>
+
+契约先行 → 一个富创建 prompt → 六个内聚批次(每批携带上一轮已验证基线作为不变量)→ 每批独立复验。Enter 负责执行,agent 负责规划与验证——Enter 的回执只是 claim,证据全部来自 Enter 之外的泳道。
+
+📖 **完整故事 + agent 创作方法**:[entries/2026-08-pulse-ai-observatory/](entries/2026-08-pulse-ai-observatory/)
+🛠 **方法论 skill**:[enter-project-ops](https://github.com/convergeai-labs/enter-skills/blob/main/skills/enter-project-ops/SKILL.md)
 
 ---
 
-## Entries
+## 条目索引
 
-| Entry | What | One line |
+| 条目 | 类型 | 一句话 |
 |---|---|---|
-| [2026-08-pulse-ai-observatory](entries/2026-08-pulse-ai-observatory/) | Live AI tech radar | Zero-input observatory: streaming narrative, 3-source radar, momentum, agent deep-dives, weekly report — 6 verified batches |
+| [2026-08-pulse-ai-observatory](entries/2026-08-pulse-ai-observatory/) | 实时 AI 技术雷达 | 零输入观测站:流式解读、三源雷达、动量徽章、Agent 深潜、每周周报——6 个已验证批次 |
 
-More entries coming — each new Enter build lands here with its prompts and provenance.
+更多条目筹备中——每个新的 Enter 作品都会带着它的 prompt 与 provenance 落到这里。
