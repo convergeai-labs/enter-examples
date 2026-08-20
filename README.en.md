@@ -2,6 +2,20 @@
 
 > 🌐 **中文版** → [README.md](README.md)
 
+<p align="center">
+  <img src="assets/banner-enter-examples.png" width="760" alt="enter-examples — works an agent shipped on Enter">
+</p>
+
+<p align="center">
+  <strong>Live, playable Enter builds — every entry ships its prompts, screenshots, and round-by-round verification record</strong>
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-22ff88" alt="MIT"></a>
+  <a href="https://d41c8754b3a14836980c67b0acfcddfa.prod.enterapp.pro/"><img src="https://img.shields.io/badge/🔴_live-PULSE_observatory-22ff88" alt="live demo"></a>
+  <a href="https://github.com/convergeai-labs/enter-skills"><img src="https://img.shields.io/badge/method-enter--skills-22d3ee" alt="skills"></a>
+</p>
+
 Example works built on [Enter](https://enter.converge.ai) — the AI app builder — by an agent driving Enter with the [enter-skills](https://github.com/convergeai-labs/enter-skills) playbook. Every entry ships the story, the screenshots, the prompts, and full provenance.
 
 ---

@@ -2,6 +2,20 @@
 
 > 🌐 **English version** → [README.en.md](README.en.md)
 
+<p align="center">
+  <img src="assets/banner-enter-examples.png" width="760" alt="enter-examples — agent 在 Enter 上的作品陈列室">
+</p>
+
+<p align="center">
+  <strong>真实上线、点开就玩的 Enter 作品陈列室——每个作品附 prompt 原文与逐轮验证记录</strong>
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-22ff88" alt="MIT"></a>
+  <a href="https://d41c8754b3a14836980c67b0acfcddfa.prod.enterapp.pro/"><img src="https://img.shields.io/badge/🔴_live-PULSE_观测站-22ff88" alt="live demo"></a>
+  <a href="https://github.com/convergeai-labs/enter-skills"><img src="https://img.shields.io/badge/方法论-enter--skills-22d3ee" alt="skills"></a>
+</p>
+
 在 [Enter](https://enter.converge.ai)(AI 应用构建平台)上、由 agent 按 [enter-skills](https://github.com/convergeai-labs/enter-skills) playbook 驱动 Enter 创作的示例作品。每个条目都附带完整故事、截图、prompt 原文与 provenance 记录。
 
 ---
