@@ -88,4 +88,8 @@
 | [2026-08-pulse-ai-observatory](entries/2026-08-pulse-ai-observatory/) | 实时 AI 技术雷达 | 零输入观测站:流式解读、三源雷达、动量徽章、Agent 深潜、每周周报——7 个已验证批次 |
 | [2026-09-daily-verse-editorial-site](entries/2026-09-daily-verse-editorial-site/) | AI 诗词品读站 | 编辑/出版美学的一日一诗:按天幂等、诚实降级、复制诗签——风格跨度的实证 |
 
+## 🍳 把作品复刻到你自己的 Enter
+
+每个作品都有**可直接粘贴的配方 prompt + 会碰到的 gate + 可调旋钮**:[recipes/](recipes/)。一日一诗是 ★ 难度(单 prompt 一次构建),适合第一次上手;PULSE 是 ★★★(创建 + 7 批次),适合想看完整工程节奏的人。
+
 更多条目筹备中——每个新的 Enter 作品都会带着它的 prompt 与 provenance 落到这里。

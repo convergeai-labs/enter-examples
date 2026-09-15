@@ -88,4 +88,8 @@ Zero input. Poem on first paint. The day-boundary behavior was witnessed in prod
 | [2026-08-pulse-ai-observatory](entries/2026-08-pulse-ai-observatory/) | Live AI tech radar | Zero-input observatory: streaming narrative, 3-source radar, momentum, agent deep-dives, weekly report — 7 verified batches |
 | [2026-09-daily-verse-editorial-site](entries/2026-09-daily-verse-editorial-site/) | AI poetry reading site | Editorial/print-aesthetic daily poem: day-idempotent, honest fallbacks, copy poem card — proof of style range |
 
+## 🍳 Rebuild these in your own Enter
+
+Every work ships a **copy-paste recipe prompt + the gates you'll hit + adaptation knobs**: [recipes/](recipes/). Daily Verse is ★ difficulty (one prompt, one build) — the best first try; PULSE is ★★★ (creation + 7 batches) for those who want the full engineering cadence. (Recipes are in Chinese, matching the target platform's prompts.)
+
 More entries coming — each new Enter build lands here with its prompts and provenance.
