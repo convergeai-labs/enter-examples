@@ -19,6 +19,15 @@
 
 在 [Enter](https://enter.converge.ai)(AI 应用构建平台)上、由 agent 按 [enter-skills](https://github.com/convergeai-labs/enter-skills) playbook 驱动 Enter 创作的示例作品。每个条目都附带完整故事、截图、prompt 原文与 provenance 记录。
 
+**同一个 agent、同一套 playbook,能产出多不同的网站?**——这是本陈列室的核心实验:
+
+| 电子霓虹 · 实时雷达 | 宣纸朱砂 · 编辑美学 |
+|---|---|
+| <img src="entries/2026-08-pulse-ai-observatory/screenshots/00-hero-crop.png" width="360" alt="PULSE:深色电子风 AI 观测站"> | <img src="entries/2026-09-daily-verse-editorial-site/screenshots/00-hero-crop.png" width="360" alt="一日一诗:宣纸朱砂诗词品读站"> |
+| **PULSE**:AI 流式解读技术圈此刻 | **一日一诗**:每天一首诗,AI 带你读 |
+
+两件作品都是零输入、首屏即内容、全访客共享状态、生产环境真实运行——**风格的跨度就是工作流自由度的证据**。
+
 ---
 
 ## 🛰️ PULSE — AI 实时观测站
@@ -44,7 +53,7 @@
   <img src="assets/agent-builds-living-site.png" width="720" alt="从 prompt 到活网站:agent 驱动 Enter 构建">
 </p>
 
-契约先行 → 一个富创建 prompt → 六个内聚批次(每批携带上一轮已验证基线作为不变量)→ 每批独立复验。Enter 负责执行,agent 负责规划与验证——Enter 的回执只是 claim,证据全部来自 Enter 之外的泳道。
+契约先行 → 一个富创建 prompt → 七个内聚批次(每批携带上一轮已验证基线作为不变量)→ 每批独立复验。Enter 负责执行,agent 负责规划与验证——Enter 的回执只是 claim,证据全部来自 Enter 之外的泳道。
 
 📖 **完整故事 + agent 创作方法**:[entries/2026-08-pulse-ai-observatory/](entries/2026-08-pulse-ai-observatory/)
 🛠 **方法论 skill**:[enter-project-ops](https://github.com/convergeai-labs/enter-skills/blob/main/skills/enter-project-ops/SKILL.md)
@@ -62,6 +71,11 @@
 **▶ 在线访问**:[一日一诗 · Daily Verse](https://92346ae03f4c440fb435995a5c68f861.prod.enterapp.pro/)(已发布 prod;打开即今日诗签,每日 UTC+8 首访生成)
 
 零输入,首屏即诗。跨天行为在生产环境实测:零点过后首位访客自动触发次日新诗,昨日诗签归档可点读。诚实性写进契约:API 无朝代字段就留空不虚构,首日历史如实空态,「今日一读」明确标注主观随想。
+
+| | |
+|---|---|
+| <img src="entries/2026-09-daily-verse-editorial-site/screenshots/02-mobile.png" width="300" alt="移动端:竖排降级横排,零溢出"> | <img src="entries/2026-09-daily-verse-editorial-site/screenshots/01-desktop.png" width="380" alt="桌面端:竖排诗题+三段品读"> |
+| 移动端 390:竖排→横排降级 | 桌面 1440:编辑/出版美学 |
 
 📖 **完整故事 + agent 创作方法**:[entries/2026-09-daily-verse-editorial-site/](entries/2026-09-daily-verse-editorial-site/)
 
