@@ -13,6 +13,7 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-22ff88" alt="MIT"></a>
   <a href="https://d41c8754b3a14836980c67b0acfcddfa.prod.enterapp.pro/"><img src="https://img.shields.io/badge/🔴_live-PULSE_观测站-22ff88" alt="live demo"></a>
+  <a href="https://92346ae03f4c440fb435995a5c68f861.prod.enterapp.pro/"><img src="https://img.shields.io/badge/🔴_live-一日一诗-c93b2e" alt="live demo 2"></a>
   <a href="https://github.com/convergeai-labs/enter-skills"><img src="https://img.shields.io/badge/方法论-enter--skills-22d3ee" alt="skills"></a>
 </p>
 
@@ -50,10 +51,27 @@
 
 ---
 
+## 🏮 一日一诗 · Daily Verse — AI 诗词品读站
+
+<p align="center">
+  <img src="entries/2026-09-daily-verse-editorial-site/screenshots/01-desktop.png" width="720" alt="一日一诗 — AI 诗词品读站">
+</p>
+
+与 PULSE 的电子霓虹风**刻意对立**的第二件作品:宣纸暖白、墨色衬线、朱砂印章、竖排诗题——编辑/出版美学。每天一首真实诗词,AI 三段式品读(白话译意 / 意象赏析 / 今日一读),所有访客共享同一首「今日之诗」;按天幂等,LLM 每天最多调用一次,不用 cron。
+
+**▶ 在线访问**:[一日一诗 · Daily Verse](https://92346ae03f4c440fb435995a5c68f861.prod.enterapp.pro/)(已发布 prod;打开即今日诗签,每日 UTC+8 首访生成)
+
+零输入,首屏即诗。跨天行为在生产环境实测:零点过后首位访客自动触发次日新诗,昨日诗签归档可点读。诚实性写进契约:API 无朝代字段就留空不虚构,首日历史如实空态,「今日一读」明确标注主观随想。
+
+📖 **完整故事 + agent 创作方法**:[entries/2026-09-daily-verse-editorial-site/](entries/2026-09-daily-verse-editorial-site/)
+
+---
+
 ## 条目索引
 
 | 条目 | 类型 | 一句话 |
 |---|---|---|
 | [2026-08-pulse-ai-observatory](entries/2026-08-pulse-ai-observatory/) | 实时 AI 技术雷达 | 零输入观测站:流式解读、三源雷达、动量徽章、Agent 深潜、每周周报——7 个已验证批次 |
+| [2026-09-daily-verse-editorial-site](entries/2026-09-daily-verse-editorial-site/) | AI 诗词品读站 | 编辑/出版美学的一日一诗:按天幂等、诚实降级、复制诗签——风格跨度的实证 |
 
 更多条目筹备中——每个新的 Enter 作品都会带着它的 prompt 与 provenance 落到这里。
